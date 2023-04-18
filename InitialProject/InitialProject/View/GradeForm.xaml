@@ -1,0 +1,23 @@
+﻿<Window x:Class="TravelAgency.View.GradeForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TravelAgency.View"
+        mc:Ignorable="d"
+        Title="GradeForm" Height="768" Width="1024" Loaded="Window_Loaded">
+    <Grid Margin="10,23,10,16">
+        <Label Content="Cleanliness of the guest:" HorizontalAlignment="Left" Margin="24,112,0,0" VerticalAlignment="Top" Height="47" Width="342" FontSize="20"/>
+        <Label Content="Respecting the rules:" HorizontalAlignment="Left" Margin="24,186,0,0" VerticalAlignment="Top" Height="47" Width="295" FontSize="20"/>
+
+        <Label Content="Comment:" HorizontalAlignment="Left" Margin="40,249,0,0" VerticalAlignment="Top" Height="47" Width="160" FontSize="20"/>
+        <Label Content="Enter ID of guest:" HorizontalAlignment="Left" Margin="34,36,0,0" VerticalAlignment="Top" Height="47" Width="251" FontSize="20"/>
+        <ComboBox x:Name="GuestsCB" HorizontalAlignment="Left" Margin="229,38,0,0" VerticalAlignment="Top" Width="297" Loaded="GusetLoaded" Height="40" FontSize="20"/>
+        <TextBox x:Name="CommentText" HorizontalAlignment="Left" Margin="50,287,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="912" Height="186"/>
+        <Button Content="Cancel" HorizontalAlignment="Left" Margin="485,631,0,0" VerticalAlignment="Top" Height="56" Width="195" Click="Close" FontSize="20"/>
+        <Button x:Name="SaveGrade" Content="Grade Guest" HorizontalAlignment="Left" Margin="730,626,0,0" VerticalAlignment="Top" Height="61" Width="244" Click="SaveGrade_Click" FontSize="20"/>
+        <ComboBox x:Name="CB1" HorizontalAlignment="Left" Margin="378,119,0,0" VerticalAlignment="Top" Width="296" Loaded="Fill" Height="40" FontSize="20"/>
+        <ComboBox x:Name="CB2" HorizontalAlignment="Left" Margin="331,190,0,0" VerticalAlignment="Top" Width="296" Loaded="Fill1" Height="40" FontSize="20"/>
+    </Grid>
+
+</Window>

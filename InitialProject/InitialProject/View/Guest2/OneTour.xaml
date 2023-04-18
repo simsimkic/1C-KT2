@@ -1,0 +1,45 @@
+﻿<Window x:Class="TravelAgency.View.Guest2.OneTour"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TravelAgency.View.Guest2"
+        mc:Ignorable="d"
+        Title="OneTour" Height="450" Width="800">
+    <Grid>
+        <Button Content="Reserve" HorizontalAlignment="Left" Height="31" Margin="117,378,0,0" VerticalAlignment="Top" Click="AddPeopleOnSelectedTour" Width="77"/>
+        <Button Content="Exit" HorizontalAlignment="Left" Margin="736,376,0,0" VerticalAlignment="Top" Click="Exit" Width="47" Height="33"/>
+        <TextBox x:Name="txtNumOfGuests" HorizontalAlignment="Left" Margin="97,355,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" FontSize="24" Height="45" Margin="33,46,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="168" Loaded="LoadData"/>
+        <Label Content="How many people are going on selected tour?" HorizontalAlignment="Left" Margin="33,324,0,0" VerticalAlignment="Top" Width="251" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.012"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Content="Lenguage" HorizontalAlignment="Left" Height="29" Margin="33,165,0,0" VerticalAlignment="Top" Width="114"/>
+        <TextBox x:Name="txtLenguage" HorizontalAlignment="Left" Height="16" Margin="33,194,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="98"/>
+        <Label Content="City" HorizontalAlignment="Left" Height="29" Margin="33,102,0,0" VerticalAlignment="Top" Width="114"/>
+        <TextBox x:Name="txtCity" HorizontalAlignment="Left" Height="16" Margin="33,131,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="99"/>
+        <Label Content="Country" HorizontalAlignment="Left" Height="29" Margin="179,102,0,0" VerticalAlignment="Top" Width="114"/>
+        <TextBox x:Name="txtCountry" HorizontalAlignment="Left" Height="16" Margin="179,131,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="99"/>
+        <Label Content="Max Number of Guests" HorizontalAlignment="Left" Height="29" Margin="33,226,0,0" VerticalAlignment="Top" Width="126"/>
+        <TextBox x:Name="txtMaxNumberOfGuests" HorizontalAlignment="Left" Height="16" Margin="33,255,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="100"/>
+        <Label Content="Tour Duration" HorizontalAlignment="Left" Height="29" Margin="179,165,0,0" VerticalAlignment="Top" Width="114"/>
+        <TextBox x:Name="txtDuration" HorizontalAlignment="Left" Height="16" Margin="179,194,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="99"/>
+        <Label Content="Curent Number of Guests" HorizontalAlignment="Left" Height="29" Margin="172,226,0,0" VerticalAlignment="Top" Width="146"/>
+        <TextBox x:Name="txtCurentNumberOfGuests" HorizontalAlignment="Left" Height="16" Margin="179,255,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="99"/>
+        <Label Content="Description" HorizontalAlignment="Left" Height="29" Margin="542,102,0,0" VerticalAlignment="Top" Width="114"/>
+        <TextBox x:Name="txtDescription" HorizontalAlignment="Left" Height="72" Margin="542,131,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="218"/>
+        <DataGrid x:Name="CheckPoints" HorizontalAlignment="Left" Height="78" Margin="336,255,0,0" VerticalAlignment="Top" Width="158" Loaded="LoadData "/>
+        <Label Content="Check Points" HorizontalAlignment="Left" Height="29" Margin="336,226,0,0" VerticalAlignment="Top" Width="114"/>
+        <DataGrid x:Name="Dates" HorizontalAlignment="Left" Height="78" Margin="336,131,0,0" VerticalAlignment="Top" Width="156" Loaded="LoadData "/>
+        <Label Content="Dates" HorizontalAlignment="Left" Height="29" Margin="336,102,0,0" VerticalAlignment="Top" Width="86"/>
+        <ComboBox x:Name="Vouchers" HorizontalAlignment="Center" Margin="0,382,0,0" Loaded="Vouchers_Loaded" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>

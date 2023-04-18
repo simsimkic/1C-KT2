@@ -1,0 +1,19 @@
+﻿<Window x:Class="TravelAgency.View.Guide.GuideLiveTour"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TravelAgency.View.Guide"
+        mc:Ignorable="d"
+        Title="GuideLiveTour" Height="450" Width="1451">
+    <Grid Margin="0,0,33,0">
+        <DataGrid x:Name="DataPanel" Margin="22,10,559,143" Loaded="OnLoad"/>
+        <Button Click="ShowTours" Content="Show Todays Tours" HorizontalAlignment="Left" Margin="22,374,0,0" VerticalAlignment="Top" Height="35" Width="117"/>
+        <Button Content="Start tour" HorizontalAlignment="Left" Margin="358,296,0,0" VerticalAlignment="Top" Height="39" Width="90" Click="StartTour"/>
+        <ListBox x:Name="ListCheckPoints" Margin="864,10,0,143"/>
+        <Button Content="Activate check point" HorizontalAlignment="Left" Margin="880,296,0,0" VerticalAlignment="Top" Height="39" Width="129" Click="ActivateCheckPoint"/>
+        <Button Content="Finish Tour" HorizontalAlignment="Left" Margin="475,297,0,0" VerticalAlignment="Top" Height="38" Width="97" Click="FinishToruForced"/>
+        <Button Content="Cancel Tour" HorizontalAlignment="Left" Margin="596,296,0,0" VerticalAlignment="Top" Height="39" Width="99" Click="CancelTour"/>
+
+    </Grid>
+</Window>

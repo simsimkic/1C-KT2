@@ -1,0 +1,17 @@
+﻿<Window x:Class="TravelAgency.View.Owner.MoveReservationView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TravelAgency.View.Owner"
+        mc:Ignorable="d"
+        Title="MoveReservation" Height="768" Width="1024" ResizeMode="NoResize" WindowStyle="SingleBorderWindow">
+    <Grid>
+        <DataGrid x:Name="DataPanel" Margin="69,44,69,289" Loaded="OnLoad" SelectionChanged="ReservationInfo"/>
+        <Button Content="Accept" HorizontalAlignment="Left" Margin="69,479,0,0" VerticalAlignment="Top" Height="66" Width="161" FontSize="20" Click="AcceptMoveReservation"/>
+        <Button Content="Decline" HorizontalAlignment="Left" Margin="247,479,0,0" VerticalAlignment="Top" Height="66" Width="162" FontSize="20" Click="DeclineMoveReservation"/>
+        <Label x:Name="ReservationInfoLabel" Content="" HorizontalAlignment="Left" Margin="424,479,0,0" VerticalAlignment="Top" Height="66" Width="531"/>
+        <Button Content="Cancel" HorizontalAlignment="Center" Margin="0,674,0,0" VerticalAlignment="Top" Height="28" Width="196" Click="Close"/>
+
+    </Grid>
+</Window>

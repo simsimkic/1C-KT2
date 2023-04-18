@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="View\GradeForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Guest1\GradeOwnerForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Guest1\Guest1AccountForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Guest1\Guest1ShowReview.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Guest1\MoveReservationForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Guest1\RecommendationForRenovation.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Guest2\Guest2Overview.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Guest2\GuestOnTour.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Guest2\OneTour.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Guest2\PastTours.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Guest2\TourReview.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Guest2\VouchersView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Guide\GuideLiveTour.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Guide\GuideForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Guide\GuideOverview.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Guide\GuideTourStatistic.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Owner\HotelGalery.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Owner\MoveReservationView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Owner\OwnerHome.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Owner\OwnerProfil.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Owner\ReviewForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\ReservationForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="View\GradeForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Guest1\GradeOwnerForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Guest1\Guest1AccountForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Guest1\Guest1ShowReview.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Guest1\MoveReservationForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Guest1\RecommendationForRenovation.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Guest2\Guest2Overview.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Guest2\GuestOnTour.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Guest2\OneTour.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Guest2\PastTours.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Guest2\TourReview.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Guest2\VouchersView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Guide\GuideLiveTour.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Guide\GuideForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Guide\GuideOverview.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Guide\GuideTourStatistic.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Owner\HotelGalery.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Owner\MoveReservationView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Owner\OwnerHome.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Owner\OwnerProfil.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Owner\ReviewForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\ReservationForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

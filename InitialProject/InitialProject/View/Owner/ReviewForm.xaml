@@ -1,0 +1,14 @@
+﻿<Window x:Class="TravelAgency.View.Owner.ReviewForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TravelAgency.View.Owner"
+        mc:Ignorable="d"
+        Title="RevievForm" Height="768" Width="1024" ResizeMode="NoResize" WindowStyle="SingleBorderWindow">
+    <Grid>
+        <DataGrid x:Name="ReviewData" Margin="43,100,43,64" Loaded="ShowData"/>
+        <Button Content="back" HorizontalAlignment="Left" Margin="0,1,0,0" VerticalAlignment="Top" Height="64" Width="81" Click="Close"/>
+
+    </Grid>
+</Window>
